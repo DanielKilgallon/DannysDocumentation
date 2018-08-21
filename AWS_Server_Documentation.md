@@ -15,7 +15,7 @@ Install the open source version of java 8
 `sudo yum install -y java-1.8.0-openjdk.x86_64`
 
 Set new `java` and `javac` paths  
-`sudo /usr/sbin/alternatives --set java /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/java`
+`sudo /usr/sbin/alternatives --set java /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/java`  
 `sudo /usr/sbin/alternatives --set javac /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/javac`
 
 Create folder for minecraft  
