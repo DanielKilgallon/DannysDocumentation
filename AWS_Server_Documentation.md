@@ -24,7 +24,7 @@ Create folder for minecraft
 
 Download minecraft server client. At the time of writing this, current version is 1.13  
 `sudo wget https://launcher.mojang.com/mc/game/1.13/server/d0caafb8438ebd206f99930cfaecfa6c9a13dca0/server.jar`  
-Note: This download link might not work. If it does not, you will need to either find your own link (which was hard for me), or download the server.jar on your own computer, and use pscp, from [PuTTY](https://www.putty.org/). Briefly, pscp is PuTTY's version of the linux Secure Copy (scp), and you'll copy it to the server.
+Note: This download link might not work. If it does not, you will need to either find your own link (which was hard for me), or download the server.jar on your own computer, and use pscp, from [PuTTY](https://www.putty.org/). Briefly, pscp is PuTTY's version of the linux Secure Copy (scp), and you will want to use pscp to copy the server.jar file to the server.
 
 
 Run minecraft server without user interface  
