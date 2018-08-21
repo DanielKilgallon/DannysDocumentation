@@ -29,7 +29,7 @@ Note: This download link might not work. If it does not, you will need to either
 Run minecraft server without user interface  
 `java -jar server.jar nogui`
 
-For a first time run, you'll have it create files, and then fail to start. At this point use your preferred editor to open `eula.txt` and change `false` to `true`.
+For a first time run, it will create files, and then fail to start. Use your preferred editor to open `eula.txt` and change `false` to `true`.
 
 Rerun, and happy building!
 
