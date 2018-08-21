@@ -35,15 +35,15 @@ Rerun, and happy building!
 
 ## Setting Up Terraria Server On Linux
 First step, we want to download a library that allows us to use mono.
-Mono is an open implementation of Microsoft's .NET framework. This means that if an application is built on that framework, it can be run through mono. This allows us to run `.exe` files, even in linux environments.
+Mono is an open implementation of Microsoft's .NET framework. This means that if an application is built on that framework, it can be run through mono. This allows us to run specific `.exe` files in linux environments.
 
 This was the only website I could find that had the `libpng15-1.5.28-2.fc26.x86_64.rpm` file ([link](archives.fedoraproject.org/pub/archive/fedora/linux/releases/26/Everything/x86_64/os/Packages/l/libpng15-1.5.28-2.fc26.x86_64.rpm)). If the link doesn't work anymore google for a new one.  
 `wget archives.fedoraproject.org/pub/archive/fedora/linux/releases/26/Everything/x86_64/os/Packages/l/libpng15-1.5.28-2.fc26.x86_64.rpm`
 
-Install the library  
+Install the library from the download  
 `sudo yum install -y libpng15-1.5.28-2.fc26.x86_64.rpm`
 
-Remove the library  
+Remove the download  
 `sudo rm libpng15-1.5.28-2.fc26.x86_64.rpm`
 
 Now that we have the library,  we can install mono  
@@ -65,4 +65,4 @@ Now run your server!
 `cd tshock`  
 `mono TerrariaServer.exe`
 
-You will be prompted for settings, and once you choose your options it will start up!
+It will prompt you to choose settings for the world, max players, etc. Once you choose your options it will start up!
