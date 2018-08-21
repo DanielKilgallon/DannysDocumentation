@@ -1,5 +1,5 @@
 # Danny's Documentation: AWS EC2 Instances and Game Servers
-Hi, and welcome to another exciting file of Danny's Documentation! We'll be learning how to properly set up and run your very own AWS EC2 Instance and/or set up a game server on it!
+Hi, and welcome to Danny's Documentation! A series where I document my personal projects. This file is for learning how to properly set up and run your very own AWS EC2 Instance and/or set up a game server on it!
 
 ## Table of Contents
 [Setting Up Minecraft Server On Linux](#setting-up-minecraft-server-on-linux)  
