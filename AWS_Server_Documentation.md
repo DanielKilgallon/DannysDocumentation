@@ -65,4 +65,4 @@ Now run your server!
 `cd tshock`  
 `mono TerrariaServer.exe`
 
-It will prompt you to choose settings for the world, max players, etc. Once you choose your options it will start up!
+It will prompt you to choose settings for the world size, max players, etc. Once you choose your options it will start up!
